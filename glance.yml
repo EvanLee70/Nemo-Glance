@@ -1,6 +1,6 @@
 # gen-glance-yml.mjs 가 projects.json 에서 자동 생성. 직접 고치지 마라.
 server:
-  port: 8080
+  port: 3013
   proxied: true
   base-url: /app/glance
 

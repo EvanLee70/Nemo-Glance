@@ -1,4 +1,5 @@
 // projects.json -> glance.yml 생성기. 목록갱신.bat 이 projects.json 을 갱신한 뒤 이 스크립트를 돌린다.
+// server.port(아래 3013)는 mydh register 때 배정받은 포트와 반드시 같아야 한다 — 네이티브 바이너리라 PORT 환경변수를 읽지 않는다.
 import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -35,7 +36,7 @@ const groups = projects
 
 const yml = `# gen-glance-yml.mjs 가 projects.json 에서 자동 생성. 직접 고치지 마라.
 server:
-  port: 8080
+  port: 3013
   proxied: true
   base-url: /app/glance
 
