@@ -16,6 +16,8 @@ pages:
                 url: "http://204.168.192.137/app/mylotto"
               - title: "MyLoveKorea"
                 url: "http://204.168.192.137/app/mylovekorea"
+              - title: "Nemo-Crew"
+                url: "http://204.168.192.137:3014/web/"
               - title: "강호비록"
                 url: "https://china-khunghoo.vercel.app"
               - title: "골프 가는 길"
@@ -37,7 +39,7 @@ pages:
               - title: "자산 키우기"
                 url: "https://mylife-vm.tail791a38.ts.net:9500"
           - type: bookmarks
-            title: 프로젝트 18개
+            title: 프로젝트 19개
             groups:
               - title: "AI지식인"
                 links:
@@ -62,6 +64,15 @@ pages:
                     url: "http://localhost:8061"
                   - title: "온라인"
                     url: "http://204.168.192.137/app/mylovekorea"
+              - title: "Nemo-Crew"
+                links:
+                  - title: "GitHub"
+                    url: "https://github.com/EvanLee70/Nemo-Crew"
+                    description: "아이디어를 넣으면 crewAI 에이전트가 기획·개발·검증까지 자동 진행"
+                  - title: "로컬"
+                    url: "http://localhost:8000/web"
+                  - title: "온라인"
+                    url: "http://204.168.192.137:3014/web/"
               - title: "강호비록"
                 links:
                   - title: "GitHub"
